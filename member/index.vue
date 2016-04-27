@@ -9,8 +9,8 @@
 
 	export default {
 		data() {
+			this.model = member_model(this.$http)
 			return {
-				model:member_model(this.$http),
 				list:[]
 			}
 		},
